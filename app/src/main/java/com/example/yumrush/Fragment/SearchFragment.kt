@@ -15,8 +15,8 @@ import com.example.yumrush.databinding.FragmentSearchBinding
 class SearchFragment : Fragment() {
     private lateinit var binding:FragmentSearchBinding
     private lateinit var adapter: MenuAdapter
-    private val originalMenuFoodName= listOf("Burger", "sandwich", "Fried momo", "Chicken Pizza", "Sandwich", "Momo")
-    private val originalMenuItemPrice = listOf("150", "80", "85", "170", "75", "50")
+    private val originalMenuFoodName= listOf("Burger", "sandwich", "Fried momo", "Chicken Pizza", "Sandwich", "Momo", "sandwich", "Fried momo", "Chicken Pizza", "Sandwich", "Momo")
+    private val originalMenuItemPrice = listOf("150", "80", "85", "170", "75", "50", "80", "85", "170", "75", "50")
     private val originalMenuImage = listOf(
         R.drawable.menu1,
         R.drawable.menu2,
@@ -24,6 +24,11 @@ class SearchFragment : Fragment() {
         R.drawable.menu4,
         R.drawable.menu5,
         R.drawable.menu6,
+        R.drawable.menu2,
+        R.drawable.menu3,
+        R.drawable.menu4,
+        R.drawable.menu5,
+        R.drawable.menu6
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -72,7 +72,6 @@ class HomeFragment : Fragment() {
         binding.populerRecyclerView.adapter=adapter
 
     }
-
     companion object {
 
     }
